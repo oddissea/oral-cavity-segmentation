@@ -1,0 +1,23 @@
+name: oral_segment
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=23.1.2
+  - numpy=1.24.3
+  - pandas=2.0.2
+  - matplotlib=3.7.1
+  - pillow=9.5.0
+  - scikit-learn=1.2.2
+  - scikit-image=0.20.0
+  - tqdm=4.65.0
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - ipython=8.14.0
+  - jupyter=1.0.0
+  - pip:
+    - albumentations==1.3.1
+    - opencv-python==4.8.0.74
+    - tensorboard==2.13.0

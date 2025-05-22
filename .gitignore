@@ -1,0 +1,60 @@
+# Dataset y carpetas de imágenes
+dataset/
+dataset*/
+images/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.bmp
+*.gif
+
+# Archivos de modelo (pueden ser muy grandes)
+models/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.onnx
+
+# Archivos de resultados y visualizaciones
+results/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!README_images/*.png  # Permitir imágenes en carpeta específica para README
+
+# Entorno Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.ipynb_checkpoints
+*.so
+.Python
+.python-version
+
+# Archivos específicos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs y archivos temporales
+logs/
+*.log
+tmp/
+temp/
+
+# Archivos de configuración local
+config_local.py
+.env.local
